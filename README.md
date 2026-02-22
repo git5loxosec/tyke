@@ -20,33 +20,46 @@ Características Principales
  * Integración de Proxies: Soporte nativo para Tor y carga automática de proxies mediante la API de Geonode.
  * Optimizado para Termux: Incluye funciones para abrir reportes directamente en el navegador de Android mediante termux-open-url.
 ![ss1](img/ss1.jpg)![ss2](img/ss2.jpg)![ss3](img/ss3.jpg)
+
 Instalación
 En Termux/Linux
 # Clonar el repositorio
+```
 git clone https://github.com/git5loxosec/tyke.git
 cd tyke
-
+```
 # Instalar dependencias
+```
 pip3 install requests
-
+```
 En Termux (Android)
+```
 pkg update && pkg upgrade
 pkg install python python-pip tor termux-api
 pip3 install requests
-
+```
 Uso
-El uso básico requiere el nombre de usuario y, opcionalmente, un perfil de búsqueda o flags de red.
+El uso básico requiere el nombre de usuario y, opcionalmente, un perfil de búsqueda o flags.
+```
 python3 tyke.py <username> [perfil] [--tor] [--geonode]
-
+```
 Ejemplos:
  * Búsqueda global simple:
+   ```
    python3 tyke.py janesmith
+   ```
  * Búsqueda enfocada en ciberseguridad y desarrollo:
+   ```
    python3 tyke.py johndoe security
+   ```
  * Búsqueda usando la red Tor (Privacidad):
+   ```
    python3 tyke.py anonuser --tor
+   ```
  * Búsqueda múltiple de usuarios:
+   ```
    python3 tyke.py user1 user2 user3 core
+   ```
 Perfiles disponibles:
  * all: Ejecuta la búsqueda en los 568 sitios.
  * core: Sitios principales (X, FB, GitHub, LinkedIn, etc.).
