@@ -4,7 +4,8 @@ Esta herramienta rinde homenaje a Tyke, una elefanta de circo africana que, tras
 
 Descripción
 Tyke es una herramienta de reconocimiento (OSINT) desarrollada en Python diseñada para buscar la presencia de nombres de usuario en 568 plataformas y redes sociales. A diferencia de otros scripts de búsqueda simple, Tyke implementa un sistema de puntuación inteligente (Scoring) para reducir falsos positivos y categoriza los resultados según la naturaleza del sitio (Seguridad, Dev, Social, etc.).
-Comparativa: Tyke vs. Otros (Sherlock/Maigret)
+
+## Tyke vs. Otros (Sherlock/Maigret)
 | Característica | Sherlock | Maigret | Tyke |
 |---|---|---|---|
 | Enfoque | Rápido / Minimalista | Profundo / Recursivo | Equilibrado / Reporte visual |
