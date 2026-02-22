@@ -13,6 +13,7 @@ Tyke es una herramienta de reconocimiento (OSINT) desarrollada en Python diseña
 | Portabilidad | Alta | Media (Pesado) | Alta (Optimizado para Termux) |
 | Reportes | TXT/JSON/CSV | HTML/PDF/JSON | HTML Interactivo (Mobile Friendly) |
 | Proxies | Manual | Soporta Tor | Tor + Rotación Geonode integrada |
+
 Características Principales
  * Deduplicación Automática: Filtra sitios repetidos en la base de datos para ahorrar tiempo.
  * Sistema de Scoring: Clasifica los resultados en EXISTS_HIGH o EXISTS_WEAK basándose en marcadores de texto y códigos HTTP.
