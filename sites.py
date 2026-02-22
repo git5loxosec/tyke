@@ -6323,5 +6323,3 @@ EXTRA_SITES_SHERLOCK = [
         "not_found_markers": [],
     },
 ]
-
-SITES = SITES + EXTRA_SITES
