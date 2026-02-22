@@ -19,7 +19,7 @@ Características Principales
  * Evasión de Bloqueos: Implementa retardos aleatorios (MIN_DELAY, MAX_DELAY) y rotación de User-Agents.
  * Integración de Proxies: Soporte nativo para Tor y carga automática de proxies mediante la API de Geonode.
  * Optimizado para Termux: Incluye funciones para abrir reportes directamente en el navegador de Android mediante termux-open-url.
-[ss1](/img/ss1.jpg)[ss2](/img/ss2.jpg)[ss3](/img/ss3.jpg)
+![ss1](/img/ss1.jpg)![ss2](/img/ss2.jpg)![ss3](/img/ss3.jpg)
 Instalación
 En Termux/Linux
 # Clonar el repositorio
