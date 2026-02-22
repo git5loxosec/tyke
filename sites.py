@@ -6324,6 +6324,4 @@ EXTRA_SITES_SHERLOCK = [
     },
 ]
 
-# Al final de tu sites.py añade esta línea:
-# SITES = SITES + EXTRA_SITES_SHERLOCK
-SITES = SITES + EXTRA_SITES_SHERLOCK
+SITES = SITES + EXTRA_SITES
