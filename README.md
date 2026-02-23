@@ -77,4 +77,5 @@ Requerimientos
  * (Opcional) Servicio Tor corriendo para la flag --tor
  * (Opcional) Paquete termux-api para visualización en Android
 
-## NO USAR SIN AUTORIZACIÓN DE TERCEROS NI CON INTENCIÓN CRIMINAL. ESTA HERRAMIENTA NO ES PARA SER USADA EN ACTIVIDADES ILÍCITAS/ILEGALES.
+* Esta herramienta se hizo inspirado en [Sherlock](https://github.com/sherlock-project/sherlock)
+### NO USAR SIN AUTORIZACIÓN DE TERCEROS NI CON INTENCIÓN CRIMINAL. ESTA HERRAMIENTA NO ES PARA SER USADA EN ACTIVIDADES ILÍCITAS/ILEGALES.
